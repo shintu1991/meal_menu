@@ -1,16 +1,17 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Main from './components/Main';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  
   return (
-    <div className='app'>
+    <>
       <Header/>
-      <body>
-      <h3 className='app-title-text'>Welcome to the meal app</h3>
-      </body>
+      <Main />
       <Footer/>
-    </div>
+    </>
   );
 }
 
